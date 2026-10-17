@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ResourceMangementSystem.Tests/ResourceMangementSystem.Tests.csproj" />
+  <Project Path="ResourceMangementSystem/ResourceMangementSystem.csproj" />
+</Solution>

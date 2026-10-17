@@ -1,0 +1,548 @@
+{
+  "Employees": [
+    {
+      "Id": "11111111-1111-1111-1111-111111111001",
+      "Name": "Aarav Sharma",
+      "Email": "aarav.sharma@company.com",
+      "Designation": "Software Engineer",
+      "Department": "Engineering",
+      "EmploymentType": 1,
+      "CostRate": 6200,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "C#", "Level": 4 },
+        { "SkillName": "SQL", "Level": 3 },
+        { "SkillName": "Azure", "Level": 3 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111002",
+      "Name": "Vihaan Patel",
+      "Email": "vihaan.patel@company.com",
+      "Designation": "Senior Engineer",
+      "Department": "Engineering",
+      "EmploymentType": 1,
+      "CostRate": 7800,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "C#", "Level": 5 },
+        { "SkillName": "Microservices", "Level": 4 },
+        { "SkillName": "Azure", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111003",
+      "Name": "Aditya Verma",
+      "Email": "aditya.verma@company.com",
+      "Designation": "QA Engineer",
+      "Department": "Quality",
+      "EmploymentType": 1,
+      "CostRate": 5400,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Testing", "Level": 4 },
+        { "SkillName": "Selenium", "Level": 4 },
+        { "SkillName": "SQL", "Level": 3 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111004",
+      "Name": "Ishaan Nair",
+      "Email": "ishaan.nair@company.com",
+      "Designation": "Business Analyst",
+      "Department": "Business",
+      "EmploymentType": 1,
+      "CostRate": 6000,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Requirements", "Level": 4 },
+        { "SkillName": "Excel", "Level": 4 },
+        { "SkillName": "Communication", "Level": 5 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111005",
+      "Name": "Rohan Gupta",
+      "Email": "rohan.gupta@company.com",
+      "Designation": "DevOps Engineer",
+      "Department": "Operations",
+      "EmploymentType": 1,
+      "CostRate": 7300,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Azure", "Level": 4 },
+        { "SkillName": "CI/CD", "Level": 4 },
+        { "SkillName": "Docker", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111006",
+      "Name": "Kabir Singh",
+      "Email": "kabir.singh@company.com",
+      "Designation": "Support Engineer",
+      "Department": "Support",
+      "EmploymentType": 2,
+      "CostRate": 4200,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "ITIL", "Level": 3 },
+        { "SkillName": "Networking", "Level": 3 },
+        { "SkillName": "SQL", "Level": 2 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111007",
+      "Name": "Arjun Mehta",
+      "Email": "arjun.mehta@company.com",
+      "Designation": "Data Engineer",
+      "Department": "Data",
+      "EmploymentType": 1,
+      "CostRate": 7600,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Python", "Level": 4 },
+        { "SkillName": "SQL", "Level": 5 },
+        { "SkillName": "ETL", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111008",
+      "Name": "Sai Reddy",
+      "Email": "sai.reddy@company.com",
+      "Designation": "UI Developer",
+      "Department": "Engineering",
+      "EmploymentType": 1,
+      "CostRate": 5900,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "React", "Level": 4 },
+        { "SkillName": "JavaScript", "Level": 4 },
+        { "SkillName": "UX", "Level": 3 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111009",
+      "Name": "Rahul Joshi",
+      "Email": "rahul.joshi@company.com",
+      "Designation": "Technical Lead",
+      "Department": "Engineering",
+      "EmploymentType": 1,
+      "CostRate": 8900,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Architecture", "Level": 5 },
+        { "SkillName": "C#", "Level": 5 },
+        { "SkillName": "Azure", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111010",
+      "Name": "Kunal Malhotra",
+      "Email": "kunal.malhotra@company.com",
+      "Designation": "Project Manager",
+      "Department": "PMO",
+      "EmploymentType": 1,
+      "CostRate": 8500,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Planning", "Level": 5 },
+        { "SkillName": "Risk Management", "Level": 4 },
+        { "SkillName": "Communication", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111011",
+      "Name": "Pranav Iyer",
+      "Email": "pranav.iyer@company.com",
+      "Designation": "Cloud Engineer",
+      "Department": "Operations",
+      "EmploymentType": 3,
+      "CostRate": 8100,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Azure", "Level": 5 },
+        { "SkillName": "Kubernetes", "Level": 4 },
+        { "SkillName": "Terraform", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111012",
+      "Name": "Nikhil Rao",
+      "Email": "nikhil.rao@company.com",
+      "Designation": "Intern",
+      "Department": "Engineering",
+      "EmploymentType": 4,
+      "CostRate": 2500,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "C#", "Level": 2 },
+        { "SkillName": "HTML", "Level": 3 },
+        { "SkillName": "SQL", "Level": 2 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111013",
+      "Name": "Dhruv Chawla",
+      "Email": "dhruv.chawla@company.com",
+      "Designation": "Security Engineer",
+      "Department": "Security",
+      "EmploymentType": 1,
+      "CostRate": 7900,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Security", "Level": 5 },
+        { "SkillName": "Azure", "Level": 3 },
+        { "SkillName": "Networking", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111014",
+      "Name": "Yash Khanna",
+      "Email": "yash.khanna@company.com",
+      "Designation": "Data Analyst",
+      "Department": "Data",
+      "EmploymentType": 1,
+      "CostRate": 5200,
+      "IsActive": true,
+      "Skills": [
+        { "SkillName": "Power BI", "Level": 4 },
+        { "SkillName": "SQL", "Level": 4 },
+        { "SkillName": "Excel", "Level": 4 }
+      ]
+    },
+    {
+      "Id": "11111111-1111-1111-1111-111111111015",
+      "Name": "Manav Bansal",
+      "Email": "manav.bansal@company.com",
+      "Designation": "Consultant",
+      "Department": "Consulting",
+      "EmploymentType": 3,
+      "CostRate": 9000,
+      "IsActive": false,
+      "Skills": [
+        { "SkillName": "Architecture", "Level": 4 },
+        { "SkillName": "Communication", "Level": 5 },
+        { "SkillName": "Planning", "Level": 4 }
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Id": "22222222-2222-2222-2222-222222222001",
+      "Name": "Phoenix Modernization",
+      "Client": "Acme Retail",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-12-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "C#", "MinimumLevel": 4 },
+        { "SkillName": "Azure", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222002",
+      "Name": "Orion Data Hub",
+      "Client": "BlueSky Logistics",
+      "StartDate": "2026-02-01",
+      "EndDate": "2026-10-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "SQL", "MinimumLevel": 4 },
+        { "SkillName": "ETL", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222003",
+      "Name": "Atlas QA Automation",
+      "Client": "Nova Fintech",
+      "StartDate": "2026-03-01",
+      "EndDate": "2026-09-30",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Testing", "MinimumLevel": 4 },
+        { "SkillName": "Selenium", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222004",
+      "Name": "Mercury Support Revamp",
+      "Client": "Sunline Telecom",
+      "StartDate": "2026-01-15",
+      "EndDate": "2026-08-15",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "ITIL", "MinimumLevel": 3 },
+        { "SkillName": "Networking", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222005",
+      "Name": "Vega UI Refresh",
+      "Client": "PixelWorks",
+      "StartDate": "2026-04-01",
+      "EndDate": "2026-11-30",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "React", "MinimumLevel": 3 },
+        { "SkillName": "UX", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222006",
+      "Name": "Apollo Infra Setup",
+      "Client": "GlobeMart",
+      "StartDate": "2026-01-10",
+      "EndDate": "2026-07-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "CI/CD", "MinimumLevel": 3 },
+        { "SkillName": "Docker", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222007",
+      "Name": "Nimbus Security Hardening",
+      "Client": "SecurePay",
+      "StartDate": "2026-05-01",
+      "EndDate": "2026-12-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Security", "MinimumLevel": 4 },
+        { "SkillName": "Networking", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222008",
+      "Name": "Delta Reporting",
+      "Client": "Insight Corp",
+      "StartDate": "2026-01-05",
+      "EndDate": "2026-05-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Power BI", "MinimumLevel": 3 },
+        { "SkillName": "SQL", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222009",
+      "Name": "Zenith Migration",
+      "Client": "TravelCo",
+      "StartDate": "2026-02-10",
+      "EndDate": "2026-10-10",
+      "Status": 1,
+      "RequiredSkills": [
+        { "SkillName": "Architecture", "MinimumLevel": 4 },
+        { "SkillName": "Azure", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222010",
+      "Name": "Hermes Program Office",
+      "Client": "Prime Mobility",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-12-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Planning", "MinimumLevel": 4 },
+        { "SkillName": "Communication", "MinimumLevel": 4 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222011",
+      "Name": "Sparrow Cloud Platform",
+      "Client": "NeoBank",
+      "StartDate": "2026-03-01",
+      "EndDate": "2026-12-31",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Kubernetes", "MinimumLevel": 3 },
+        { "SkillName": "Terraform", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222012",
+      "Name": "Comet Intern Pilot",
+      "Client": "EduTech Labs",
+      "StartDate": "2026-06-01",
+      "EndDate": "2026-09-30",
+      "Status": 1,
+      "RequiredSkills": [
+        { "SkillName": "HTML", "MinimumLevel": 2 },
+        { "SkillName": "C#", "MinimumLevel": 2 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222013",
+      "Name": "Polaris Consulting Sprint",
+      "Client": "DigiTrade",
+      "StartDate": "2026-04-15",
+      "EndDate": "2026-07-15",
+      "Status": 1,
+      "RequiredSkills": [
+        { "SkillName": "Communication", "MinimumLevel": 4 },
+        { "SkillName": "Planning", "MinimumLevel": 3 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222014",
+      "Name": "Titan Architecture Board",
+      "Client": "HealthPlus",
+      "StartDate": "2026-02-01",
+      "EndDate": "2026-12-01",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Architecture", "MinimumLevel": 5 },
+        { "SkillName": "C#", "MinimumLevel": 4 }
+      ]
+    },
+    {
+      "Id": "22222222-2222-2222-2222-222222222015",
+      "Name": "Astra Analytics",
+      "Client": "RetailHub",
+      "StartDate": "2026-05-01",
+      "EndDate": "2026-11-30",
+      "Status": 2,
+      "RequiredSkills": [
+        { "SkillName": "Python", "MinimumLevel": 3 },
+        { "SkillName": "SQL", "MinimumLevel": 4 }
+      ]
+    }
+  ],
+  "Allocations": [
+    {
+      "Id": "33333333-3333-3333-3333-333333333001",
+      "EmployeeId": "11111111-1111-1111-1111-111111111001",
+      "ProjectId": "22222222-2222-2222-2222-222222222001",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-06-30",
+      "AllocationPercentage": 60,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333002",
+      "EmployeeId": "11111111-1111-1111-1111-111111111002",
+      "ProjectId": "22222222-2222-2222-2222-222222222001",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-12-31",
+      "AllocationPercentage": 80,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333003",
+      "EmployeeId": "11111111-1111-1111-1111-111111111003",
+      "ProjectId": "22222222-2222-2222-2222-222222222003",
+      "StartDate": "2026-03-01",
+      "EndDate": "2026-09-30",
+      "AllocationPercentage": 70,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333004",
+      "EmployeeId": "11111111-1111-1111-1111-111111111004",
+      "ProjectId": "22222222-2222-2222-2222-222222222010",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-09-30",
+      "AllocationPercentage": 50,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333005",
+      "EmployeeId": "11111111-1111-1111-1111-111111111005",
+      "ProjectId": "22222222-2222-2222-2222-222222222006",
+      "StartDate": "2026-01-10",
+      "EndDate": "2026-07-31",
+      "AllocationPercentage": 75,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333006",
+      "EmployeeId": "11111111-1111-1111-1111-111111111006",
+      "ProjectId": "22222222-2222-2222-2222-222222222004",
+      "StartDate": "2026-01-15",
+      "EndDate": "2026-08-15",
+      "AllocationPercentage": 65,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333007",
+      "EmployeeId": "11111111-1111-1111-1111-111111111007",
+      "ProjectId": "22222222-2222-2222-2222-222222222002",
+      "StartDate": "2026-02-01",
+      "EndDate": "2026-10-31",
+      "AllocationPercentage": 85,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333008",
+      "EmployeeId": "11111111-1111-1111-1111-111111111008",
+      "ProjectId": "22222222-2222-2222-2222-222222222005",
+      "StartDate": "2026-04-01",
+      "EndDate": "2026-11-30",
+      "AllocationPercentage": 70,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333009",
+      "EmployeeId": "11111111-1111-1111-1111-111111111009",
+      "ProjectId": "22222222-2222-2222-2222-222222222014",
+      "StartDate": "2026-02-01",
+      "EndDate": "2026-12-01",
+      "AllocationPercentage": 90,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333010",
+      "EmployeeId": "11111111-1111-1111-1111-111111111010",
+      "ProjectId": "22222222-2222-2222-2222-222222222010",
+      "StartDate": "2026-01-01",
+      "EndDate": "2026-12-31",
+      "AllocationPercentage": 60,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333011",
+      "EmployeeId": "11111111-1111-1111-1111-111111111011",
+      "ProjectId": "22222222-2222-2222-2222-222222222011",
+      "StartDate": "2026-03-01",
+      "EndDate": "2026-12-31",
+      "AllocationPercentage": 80,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333012",
+      "EmployeeId": "11111111-1111-1111-1111-111111111012",
+      "ProjectId": "22222222-2222-2222-2222-222222222012",
+      "StartDate": "2026-06-01",
+      "EndDate": "2026-09-30",
+      "AllocationPercentage": 40,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333013",
+      "EmployeeId": "11111111-1111-1111-1111-111111111013",
+      "ProjectId": "22222222-2222-2222-2222-222222222007",
+      "StartDate": "2026-05-01",
+      "EndDate": "2026-12-31",
+      "AllocationPercentage": 75,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333014",
+      "EmployeeId": "11111111-1111-1111-1111-111111111014",
+      "ProjectId": "22222222-2222-2222-2222-222222222008",
+      "StartDate": "2026-01-05",
+      "EndDate": "2026-05-31",
+      "AllocationPercentage": 70,
+      "IsActive": true
+    },
+    {
+      "Id": "33333333-3333-3333-3333-333333333015",
+      "EmployeeId": "11111111-1111-1111-1111-111111111001",
+      "ProjectId": "22222222-2222-2222-2222-222222222009",
+      "StartDate": "2026-07-01",
+      "EndDate": "2026-10-10",
+      "AllocationPercentage": 30,
+      "IsActive": true
+    }
+  ]
+}
